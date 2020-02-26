@@ -7,6 +7,9 @@
 
 const blacklist = require('metro-config/src/defaults/blacklist');
 
+// get defaults assetExts array
+const defaultAssetExts = require('metro-config/src/defaults/defaults').assetExts;
+
 module.exports = {
   transformer: {
     getTransformOptions: async () => ({
@@ -17,8 +20,7 @@ module.exports = {
     }),
   },
   resolver: {
-    assetExts: ['bin', 'txt', 'jpg'],
-    sourceExts: ['js', 'json', 'ts', 'tsx', 'jsx'],
+    assetExts: [...defaultAssetExts, 'bin'],
     blacklistRE: blacklist([/platform_node/]),
   },
 };
