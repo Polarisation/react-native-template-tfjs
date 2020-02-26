@@ -2538,10 +2538,18 @@ expo-file-system@~8.0.0:
   dependencies:
     uuid-js "^0.7.5"
 
-expo-gl-cpp@^8.0.0:
+expo-gl-cpp@^8.0.0, expo-gl-cpp@~8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/expo-gl-cpp/-/expo-gl-cpp-8.0.0.tgz#9f4e06f9e9a65937d81b8ee0eef929bedf343aa1"
   integrity sha512-ltBx609nFYx4vd4Wm0/w9QPZEMD7yq1VU7gbsMcKqOAJzR/x/uXjteh8TtysGhUsheMZz2t2eAMrUaWzAQNcgQ==
+
+expo-gl@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/expo-gl/-/expo-gl-8.0.0.tgz#74dea008b0866f2ea853d98edc23bab4af187ac6"
+  integrity sha512-JdyRPbzEhh6YrJaxz3uFtvJiKESmnkDHBfxXStW9n5DOunUe9qLDkg7GJwBEmSs5FxR6V3ycQmDfFQ+OPOgQ1A==
+  dependencies:
+    expo-gl-cpp "~8.0.0"
+    prop-types "^15.7.2"
 
 expo-permissions@~8.0.0:
   version "8.0.0"
