@@ -10,6 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@tensorflow/tfjs": "^1.5.2",
     "expo-gl": "^8.0.0",
     "expo-gl-cpp": "^8.0.0",
     "react": "16.9.0",

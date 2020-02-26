@@ -6,7 +6,7 @@
  * @flow
  */
 
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -23,8 +23,20 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import * as tf from '@tensorflow/tfjs';
 
 const App: () => React$Node = () => {
+  // State to indicate if TensorFlow.js finished loading
+  const [isTfReady, setTfReady] = useState(false);
+
+  useEffect(() => {
+    async function waitForTensorFlowJs() {
+      await tf.ready();
+      setTfReady(true);
+    }
+    waitForTensorFlowJs();
+  }, []);
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -39,6 +51,12 @@ const App: () => React$Node = () => {
             </View>
           )}
           <View style={styles.body}>
+            <View style={styles.sectionContainer}>
+              <Text style={styles.sectionDescription}>
+                TensorFlow.js v{tf.version.tfjs} is {isTfReady ? 'ready' : 'loading'}{' '}
+                {isTfReady && `and using backend: ${tf.getBackend()}`}.
+              </Text>
+            </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
