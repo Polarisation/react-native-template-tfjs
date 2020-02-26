@@ -6,7 +6,7 @@ This template will give you a new React Native project with TensorFlow.js instal
 
 Simply run the following command:
 ```
-npx react-native init MyApp --template tfjs
+npx react-native init MyApp --template react-native-template-tfjs
 ```
 
 This will generate the new project in the `MyApp` directory. In the `MyApp` directory you can then run the app with `react-native run-ios` or `react-native run-android`, so long as you've already [configured your environment](https://reactnative.dev/docs/getting-started.html) for these platforms.
