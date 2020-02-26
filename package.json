@@ -1,4 +1,24 @@
 {
   "name": "react-native-template-tfjs",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "React Native template for a quick start with the TensorFlow.js (tfjs-react-native).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polarisation/react-native-template-tfjs.git"
+  },
+  "keywords": [
+    "react-native-template",
+    "react-native",
+    "tensorflowjs",
+    "tfjs",
+    "template",
+    "boilerplate",
+    "tfjs-react-native"
+  ],
+  "author": "Justin Emery <freelance@justinemery.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Polarisation/react-native-template-tfjs/issues"
+  },
+  "homepage": "https://github.com/Polarisation/react-native-template-tfjs#readme"
 }

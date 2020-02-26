@@ -2,6 +2,9 @@
  * Sample React Native App
  * https://github.com/facebook/react-native
  *
+ * Generated with the TensorFlow.js template
+ * https://github.com/Polarisation/react-native-template-tfjs
+ *
  * @format
  * @flow
  */
