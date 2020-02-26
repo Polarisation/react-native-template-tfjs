@@ -24,6 +24,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import * as tf from '@tensorflow/tfjs';
+import '@tensorflow/tfjs-react-native';
 
 const App: () => React$Node = () => {
   // State to indicate if TensorFlow.js finished loading
