@@ -1,37 +1,4 @@
 {
   "name": "react-native-template-tfjs",
-  "version": "0.0.1",
-  "license": "MIT"
-  "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
-  },
-  "dependencies": {
-    "@react-native-community/async-storage": "^1.8.0",
-    "@tensorflow/tfjs": "^1.5.2",
-    "@tensorflow/tfjs-react-native": "^0.2.3",
-    "expo-camera": "^8.0.0",
-    "expo-gl": "^8.0.0",
-    "expo-gl-cpp": "^8.0.0",
-    "react": "16.9.0",
-    "react-native": "0.61.5",
-    "react-native-fs": "^2.16.6",
-    "react-native-unimodules": "^0.7.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.6.2",
-    "@babel/runtime": "^7.6.2",
-    "@react-native-community/eslint-config": "^0.0.5",
-    "babel-jest": "^24.9.0",
-    "eslint": "^6.5.1",
-    "jest": "^24.9.0",
-    "metro-react-native-babel-preset": "^0.56.0",
-    "react-test-renderer": "16.9.0"
-  },
-  "jest": {
-    "preset": "react-native"
-  }
+  "version": "1.0.0"
 }
