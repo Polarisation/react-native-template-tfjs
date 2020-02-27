@@ -2,7 +2,7 @@
 
 This template will give you a new React Native project with TensorFlow.js installed using a single command. You could install TensorFlow.js yourself following the [TensorFlow.js Platform Adapter for React Native instructions](https://github.com/tensorflow/tfjs/tree/master/tfjs-react-native), but this is a fairly complex process, especially if not using Expo.
 
-You can read a longer explanation on my blog post, [TensorFlow.js for React Native: Up & Running!](https://tech.courses/tensorflow-js-react-native/).
+You can read a longer explanation on my blog post, [TensorFlow.js for React Native: Up & Running!](https://tech.courses/tensorflow-js-react-native/)
 
 ## Usage
 
