@@ -17,7 +17,7 @@
     "expo-gl": "^8.0.0",
     "expo-gl-cpp": "^8.0.0",
     "react": "16.9.0",
-    "react-native": "0.61.5",
+    "react-native": "0.62.3",
     "react-native-fs": "^2.16.6",
     "react-native-unimodules": "^0.7.0"
   },
